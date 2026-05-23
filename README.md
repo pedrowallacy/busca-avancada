@@ -1,9 +1,9 @@
-# 🔎 API de Busca no Elasticsearch
+# API de Busca no Elasticsearch
 
 Esta API em Flask permite realizar buscas avançadas em documentos armazenados no Elasticsearch.  
 Suporta filtros por texto, número do DOE, intervalo de datas, ordenação e realce (`highlight`) nos resultados.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Busca textual com operadores **AND**, **OR** e **frase exata**.
 - Filtro por:
   - Número do DOE (`numDoe`)
@@ -13,7 +13,7 @@ Suporta filtros por texto, número do DOE, intervalo de datas, ordenação e rea
 - Suporte a CORS para integração com frontends.
 - Endpoint de versão para teste rápido.
 
-## 📦 Requisitos
+## Requisitos
 - Python 3.8+
 - Bibliotecas:
   - Flask
